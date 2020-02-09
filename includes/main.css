@@ -1,0 +1,100 @@
+.home {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-width: 20%;
+    -moz-column-width: 20%;
+    column-width: 20%; 
+    margin: 5px 10px;
+    /* height: 88%; */
+}
+
+.home .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+    .home .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); 
+}
+
+@media (max-width: 450px) {
+    .home {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .btn.filter {
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+    }
+}
+
+body {font-family:serif; background: #2c394a;/*background:url("https://s3.envato.com/files/218429202/Preview_Image_.jpg");*/}
+
+.wrapper {position:relative; min-height:88vh;}
+
+/* START - Header */
+.header, .nav {height:50px}
+.nav div {height:50px;}
+.email-img {margin-top:10px;}
+.header li {list-style:none; display:inline-block; text-align:center; line-height:50px;}
+.header li a {text-transform:uppercase; padding:10px; color:#fff;}
+/* END - Header */
+
+/* START - Home */
+.home .pics img {border-radius:2px; border:1px solid gray;}
+/* END - Home */
+
+/* START - About Us */
+.aboutUs .row p {padding-top:5px; text-align:center}
+.aboutUs .row img {width:-webkit-fill-available; margin:3px; border-radius: px;}
+.aboutUs .row div .col_inner {background:#3F729B; color:#fff; border-radius:5px; border:1px solid black; margin:1px; margin:10px; height:575px;}
+hr {width:80%; margin:5px 10%; background:#fff;}
+/* END - About Us */
+
+
+/* START - Gallery */
+.show_all_btn {margin:4px; padding:1px 5px; background:#34661f; color:#fff;}
+.show_all_btn:hover {background:#fff; color:34661f; border:1px solid #34661f;}
+.all_folder_names_btn:hover {background:#fff; color:000; border:1px solid #3E4551;}
+.folder_name_div {margin:10px 0px;}
+.all_folder_names_btn {margin:4px; padding:1px 5px; background:#3E4551; color:#fff;}
+.all_img_div {margin-bottom:10px; background:#3e45500f; padding:5px; border-radius:2px; border:1px solid gray;}
+.imgs {margin:1px; border-radius:3px; max-height:100px;}
+.imgs:hover {cursor:pointer;}
+.modal-content button {padding:5px; background:#2f4f4f;}
+.modal_body {padding-top:5px;}
+#imagepreview {max-width:100%; max-height:100%;}
+/* END - Gallery */
+
+/* START - Contact */
+.cont_img_banner {display:block; margin:auto; margin-top:5px; max-width:100%}
+/* .contact {background:#0f446d; margin:0px 28px; margin-bottom:5px; color:#fff;} */
+@media only screen and (max-width: 400px) {
+    .contact {background:#0f446d; margin-bottom:5px; color:#fff;}
+}
+@media only screen and (min-width: 401px) {
+    .contact {background:#0f446d; margin:0px 28px; margin-bottom:5px; color:#fff;}
+}
+.cont_left_div {background:#2c394a}
+.cont_right_div {background:#2c394a}
+.contact-us-info {padding:100px 20px}
+.contact-us-form {background:#fff; margin:5px; padding:10px; border-radius:3px}
+/* END - Contact */
+
+/* START - Footer */
+/* .footer {background:#f5f5f5; } */
+.footer p {color:#aaa;}
+.footer p a {color:#aaa;}
+/* END - Footer */
+
+/* START - Site Map */
+.siteMapLi {margin-bottom:60px; color:fff; margin:20px;}
+/* End - Site Map */
